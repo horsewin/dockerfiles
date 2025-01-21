@@ -1,6 +1,6 @@
 FROM ruby:3.0.1-alpine
 
-ENV RIDGEPOLE_VERSION 0.9.4
+ENV RIDGEPOLE_VERSION 3.0.1
 ENV PG_VERSION 1.2.3
 
 RUN apk add --no-cache --update \
